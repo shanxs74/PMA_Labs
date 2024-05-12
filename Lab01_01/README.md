@@ -52,7 +52,7 @@ There is no Network based IOCs.
 
 
 # Deep look on Lab01-01.dll
-# Lab01-01.dll Analysis
+
 ## Solutions: 
 **(1)** 40/73 security vendors and no sandboxes flagged this file as malicious.     
 **(2)** This file compiled at Sun Dec 19 16:16:38 2010 | UTC.      
@@ -94,10 +94,10 @@ we found that file has a lot of imports which indicate that the file is not pack
      
                  
 ### imports indications :
-> open socket,connect to URL and receive packets
-> Create a child process
-> Create a Mutex 
-> Sleeping 
+> open socket,connect to URL and receive packets                    
+> Create a child process                     
+> Create a Mutex                            
+> Sleeping                         
 ### Host-based IOCs :
 
 | Num | Type | Value |

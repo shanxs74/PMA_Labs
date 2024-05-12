@@ -52,7 +52,7 @@ There is no Network based IOCs.
 
 
 # Deep look on Lab01-01.dll
-# Lab01_01 Analysis
+# Lab01-01.dll Analysis
 ## Solutions: 
 **(1)** 40/73 security vendors and no sandboxes flagged this file as malicious.     
 **(2)** This file compiled at Sun Dec 19 16:16:38 2010 | UTC.      

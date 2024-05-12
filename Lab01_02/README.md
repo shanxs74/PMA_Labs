@@ -2,8 +2,8 @@
 ## Solutions: 
 **(1)** 57/72 security vendors and 1 sandbox flagged this file as malicious.                   
 **(2)** This file compiled at Wed Jan 19 16:10:41 2011 | UTC.             
-**(3)** the file is not packed/ packed .   
-**(4)** .................    
+**(3)** the file is packed .   
+**(4)** esclate privileges,conncet to internet and using sleeping mechanism.       
 **(5)** There are 1 IOCs extracted in our report    
 **(6)** There are 2 Network IOCs in our report .  
 **(7)** I guess That file is a `Backdoor`  
@@ -34,7 +34,7 @@ This file compiled at Wed Jan 19 16:10:41 2011 | UTC.
 
 
 #### First indicator :
-we found that file is not packed  with low entropy `5.25021` expect `Section(1)` is packed with high Entropy ``
+we found that file is not packed  with low entropy `5.25021` expect `Section(1)` is packed with high Entropy `7.06812`
              
           
 
@@ -68,7 +68,7 @@ Packing Imports     |  Unpacking Imports
 | Num | Type | Value |
 | :---: | :---: | :---: |
 | 1 | SHA-265 Hash |8BCBE24949951D8AAE6018B87B5CA799EFE47AEB623E6E5D3665814C6D59AEAE| 
-| 2 | SHA-256 hash  |C876A332D7DD8DA331CB8EEE7AB7BF32752834D4B2B54EAA362674A2A48F64A6 | 
+| 2 | SHA-256 hash |C876A332D7DD8DA331CB8EEE7AB7BF32752834D4B2B54EAA362674A2A48F64A6| 
 
 ### Network-based IOCs :
 | Num | Type | Value |

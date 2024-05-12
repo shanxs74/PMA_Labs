@@ -111,4 +111,4 @@ we found that file has a lot of imports which indicate that the file is not pack
  
 
 ### summary :
-> From  all extracted data we found Lab01-01.exe is a dropper which drops Lab01-01.dll which is a Backdoor and It connects to URL through the IP Address 127.26.152.13 then send and receive files.
+> `**From  all extracted data we found Lab01-01.exe is a dropper which drops Lab01-01.dll which is a Backdoor and It connects to URL through the IP Address 127.26.152.13 then send and receive files.**`
